@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import Materials from '../materials/materials';
 import { Route, Link, Routes } from 'react-router-dom';
 import BasicGame from '../BasicGame/BasicGame';
+import ThreeDGame from '../3D/ThreeDGame';
 import FutureTab from '../FutureTab';
 // import classes from './dashboard.module.css';
 
@@ -21,7 +22,7 @@ class HomePage extends Component {
 								<Link to="/basicTicTacToe">Tic Tac Toe</Link>
 							</li>
 							<li>
-								<Link to="/futuretab">FutureTab</Link>
+								<Link to="/3d">3D</Link>
 							</li>
 							{/* <li>
 								<Link to="/submittals">Submittals</Link>
@@ -35,7 +36,7 @@ class HomePage extends Component {
 				<Routes>
 					<Route path="/" exact element={HomePage} />
 					<Route path="/basicTicTacToe" element={<BasicGame />} />
-					<Route path="/futuretab" exact element={<FutureTab />} />
+					<Route path="/3d" exact element={<ThreeDGame />} />
 					{/* <Route path="/submittals" exact component={Submittals} /> */}
 					{/* <Route path="/co_log" exact component={COs} /> */}
 				</Routes>
