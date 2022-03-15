@@ -124,7 +124,7 @@ class ThreeDGame extends Component {
 			_.range(3, 79, 19),
 			_.range(12, 64, 13),
 			_.range(15, 59, 11),
-			// top to bottom, straight
+			// corner to corner, same level
 			_.range(0, 20, 5),
 			_.range(3, 15, 3),
 			_.range(16, 36, 5),
