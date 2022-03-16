@@ -1,6 +1,4 @@
-import { render } from '@testing-library/react';
 import { React, Component } from 'react';
-import ReactDOM from 'react-dom';
 import classes from './ThreeDGame.module.css';
 import Square from '../../Components/Square/square';
 import ThreeDBoard from '../../Components/ThreeDBoard/ThreeDBoard';
@@ -185,9 +183,4 @@ class ThreeDGame extends Component {
 	}
 }
 
-// ========================================
-
-// ReactDOM.render(<Game />, document.getElementById('root'));
-
 export default ThreeDGame;
-// render(<Game />);
