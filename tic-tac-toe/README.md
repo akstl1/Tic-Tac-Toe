@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Tic Tac Toe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+When I attended the Missouri Scholar Academy during high school, I was introduced to 3D tic tac toe. Gameplay is similar to tic tac toe, but differs in that the grid is 4x4 and there are 4 such grids on top of each other in tiers. To win, you need to get 4 in a row either on one board or across the different tiers. For example, you could win by placing markers in the same grid position on all four tiers of the game.
 
-## Available Scripts
+Recently I remembered how much I enjoyed playing this game with my fellow scholars that summer, and wanted to re-create the game online. In this app, I first learned how to make a regular tic tac toe game using React. This portion of the app included normal gameplay and ability to go back to previous moves.
 
-In the project directory, you can run:
+Next I expanded this to include a page with 3d tic tac toe gameplay and time travel / previous move ability.
 
-### `npm start`
+In the future I would also like to include a section with ultimate tic tac toe. This version of the game has individual tic tac toe boards within each square of a normal board. To win a square of the overall board, you have to win the mini-board located within that square. After each player makes a move, the next player can only put their next marker in the board corresponding to the previous player's move. For example, if a player puts a marker in the center square, top left position of the mini-board therein the next player must put their next marker in the board within the top left square. When a player wins 3 squares in a row / diagonally on the overall board, they win.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Starting the app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To start the app via React:
+- clone this repo
+- install all dependent packages
+- type 'npm start' command in the terminal
+- the app should then start on localhost:3000
