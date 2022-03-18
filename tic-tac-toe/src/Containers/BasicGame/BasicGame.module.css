@@ -22,3 +22,23 @@ body {
     margin-left: 20px;
   }
   
+.history {
+  color: black;
+  border-color: blue;
+  padding-bottom: 0.2px;
+  margin:0;
+  border-radius: 30px;
+  
+}
+
+.history:hover {
+  background-color: lightblue;
+}
+
+p {
+  margin: 6px;
+}
+
+.status {
+  text-align: center;
+}

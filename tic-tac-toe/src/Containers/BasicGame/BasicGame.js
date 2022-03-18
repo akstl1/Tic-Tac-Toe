@@ -75,9 +75,11 @@ class BasicGame extends Component {
 		const moves = history.map((step, move) => {
 			const desc = move ? 'Go to move #' + move : 'Go to game start';
 			return (
-				<li key={move}>
-					<button onClick={() => this.jumpTo(move)}>{desc}</button>
-				</li>
+				<p key={move}>
+					<button className={classes.history} onClick={() => this.jumpTo(move)}>
+						{desc}
+					</button>
+				</p>
 			);
 		});
 		let status;
@@ -97,7 +99,7 @@ class BasicGame extends Component {
 					/>
 				</div>
 				<div className={classes.gameInfo}>
-					<div>{status}</div>
+					<div className={classes.status}>{status}</div>
 					<ol>{moves}</ol>
 				</div>
 			</div>
