@@ -4,6 +4,8 @@ import { Route, Link, Routes } from 'react-router-dom';
 import BasicGame from '../BasicGame/BasicGame';
 import ThreeDGame from '../3D/ThreeDGame';
 import FutureTab from '../FutureTab';
+import classes from './homepage.module.css';
+
 // import classes from './dashboard.module.css';
 
 // Basic homepage with h1 and routes to other pages.
@@ -22,7 +24,7 @@ class HomePage extends Component {
 								<Link to="/basicTicTacToe">Tic Tac Toe</Link>
 							</li>
 							<li>
-								<Link to="/3d">3D</Link>
+								<Link to="/3d">3D Tic Tac Toe</Link>
 							</li>
 							{/* <li>
 								<Link to="/submittals">Submittals</Link>
